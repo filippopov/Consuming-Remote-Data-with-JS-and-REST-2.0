@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <style>
+        .books-list{
+            border: 1px solid black;
+            margin: 5px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <div id="books-container"></div>
+    <div>
+        <input type="text" id="book-title"/>
+        <input type="text" id="book-author"/>
+        <input type="text" id="book-isbn"/>
+        <button id="book-add">Add</button>
+    </div>
+</div>
+<script src="scripts/model.js"></script>
+<script src="scripts/books-view-models.js"></script>
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
